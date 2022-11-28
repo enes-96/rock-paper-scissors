@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+button {
+  padding: 6px 56px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: #fff;
+  transition: 0.3s all;
+}
+button:hover {
+  background-color: white;
+  outline: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+#choices {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  transition: 0.3s all;
+}
